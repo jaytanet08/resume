@@ -1,0 +1,33 @@
+.bg-home {
+    background-image: url("../../../public/assets/img/bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 8px rgba(211, 11, 11, 0.2), 0 6px 20px rgba(203, 11, 11, 0.19);
+}
+
+.profile-div {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    width: 300px;
+    background-color: orange;
+    /* แก้ไขจาก 'organe' เป็น 'orange' */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.div-icon {
+    margin-top: 50px;
+}
+
+.icon-github {
+    color: orange;
+    margin-right: 20px;
+}
+
+.icon-linkin {
+    color: orange;
+
+}

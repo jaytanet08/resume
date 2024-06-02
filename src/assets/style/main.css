@@ -1,0 +1,60 @@
+.label-navber {
+
+    font-size: 14px;
+    margin: 5px 5px 0px 5px;
+}
+
+.ant-anchor-link-title {
+    color: white !important;
+}
+
+.ant-affix {
+    background: black;
+}
+
+.anchor-body {
+    background: black;
+
+}
+
+.div-nav {
+
+    display: flex;
+    align-items: center;
+    margin-bottom: -5px;
+}
+
+.div-cv {
+    color: white;
+    font-size: 20px;
+    margin: 15px 50px 10px 10px;
+}
+
+.nav-links {
+
+
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.navbar {
+    width: 100hv;
+    /* ให้ Navbar ของคุณเต็มความกว้างของหน้าจอ */
+}
+
+
+.div-img-tanet {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 80px;
+}
+
+.img-tanet {
+    width: 80%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 30px
+}
