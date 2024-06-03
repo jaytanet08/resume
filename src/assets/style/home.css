@@ -1,33 +1,231 @@
-.bg-home {
-    background-image: url("../../../public/assets/img/bg.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    box-shadow: 0 4px 8px rgba(211, 11, 11, 0.2), 0 6px 20px rgba(203, 11, 11, 0.19);
-}
-
 .profile-div {
     font-size: 30px;
     font-weight: bold;
     color: white;
-    width: 300px;
-    background-color: orange;
-    /* แก้ไขจาก 'organe' เป็น 'orange' */
+    width: 350px;
+    height: 50px;
+    background-color: greenyellow;
     border-radius: 10px;
     display: flex;
     justify-content: center;
+}
+
+.div-name-person {
+    font-size: 75px;
+    font-weight: bold;
+    color: white;
+}
+
+.div-detail {
+    color: white;
+    margin: 10px;
+    font-size: 30px;
 }
 
 .div-icon {
     margin-top: 50px;
 }
 
+.icon-github,
+.icon-linkin {
+    color: white;
+}
+
 .icon-github {
-    color: orange;
     margin-right: 20px;
 }
 
-.icon-linkin {
-    color: orange;
+.div-img-tanet {
+    width: 50%;
 
+    padding: 50px 50px 50px 50px;
+    margin-top: 100px;
+}
+
+.img-tanet {
+    width: 650px;
+    height: 650px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(211, 11, 11, 0.2), 0 6px 20px rgba(203, 11, 11, 0.19);
+}
+
+.div-main-homepage {
+    width: 100%;
+    display: flex;
+}
+
+.div-home-left {
+    width: 50%;
+    margin-left: 200px;
+    margin-top: 100px;
+    padding: 70px;
+}
+
+.div-btn-cv {
+    margin-top: 50px;
+}
+
+.btn-cv {
+    background-color: rebeccapurple;
+    width: auto;
+    height: 40px;
+}
+
+/* Media Queries */
+@media (max-width: 2137px) {
+    .div-home-left {
+
+        margin-left: 150px;
+
+    }
+
+}
+
+@media (max-width: 1866px) {
+    .div-home-left {
+
+        margin-left: 150px;
+
+    }
+
+    .img-tanet {
+        margin-top: 100px;
+        width: 550px;
+        height: 550px;
+    }
+}
+
+@media (max-width: 1646px) {
+
+    .img-tanet {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@media (max-width: 1496px) {
+    .div-home-left {
+        margin-left: 0;
+    }
+
+    .div-img-tanet {
+        display: flex;
+        justify-content: left;
+        margin-left: -90px;
+    }
+}
+
+@media (max-width: 1248px) {
+    .img-tanet {
+        margin-top: 0px;
+        width: 400px;
+        height: 400px;
+    }
+
+    .div-name-person {
+        font-size: 40px;
+    }
+
+    .div-detail {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 890px) {
+    .div-home-left {
+        width: 80%;
+    }
+
+    .div-name-person {
+        font-size: 60px;
+    }
+
+    .div-img-tanet {
+        width: 70%;
+        justify-content: center;
+        margin-left: 100px;
+        padding: 0;
+    }
+
+    .img-tanet {
+        width: 100%;
+        height: 100%;
+    }
+
+    .div-main-homepage {
+        display: grid;
+    }
+
+    .div-img-tanet {
+        margin: auto;
+    }
+}
+
+@media (max-width: 670px) {
+    .profile-div {
+        margin-top: -50px;
+    }
+
+    .div-home-left {
+        width: 70%;
+    }
+
+    .div-name-person {
+        margin-top: 20px;
+        font-size: 50px;
+    }
+
+    .div-detail {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 532px) {
+    .div-name-person {
+        font-size: 40px;
+    }
+
+    .div-detail {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 460px) {
+    .div-name-person {
+        font-size: 30px;
+    }
+
+    .div-detail {
+        font-size: 14px;
+    }
+
+    .div-home-left {
+        width: 70%;
+    }
+}
+
+@media (max-width: 443px) {
+    .div-main-homepage {
+
+        margin-top: -30px;
+
+    }
+
+    .div-name-person {
+        font-size: 30px;
+    }
+
+    .profile-div {
+        font-size: 20px;
+        width: 200px;
+    }
+
+    .div-home-left {
+        width: 60%;
+    }
+
+    .div-img-tanet {
+        width: 250px;
+        height: 250px;
+    }
 }

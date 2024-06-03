@@ -1,0 +1,17 @@
+.div-main-skill {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.div-img-skill {
+    margin: 5px;
+    width: 200px;
+    height: 100px;
+}
+
+.img-skill {
+
+    width: 100px;
+    height: 100px;
+}

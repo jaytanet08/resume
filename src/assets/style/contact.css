@@ -1,0 +1,35 @@
+.labal-contact {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.div-main-contact {
+    display: flex;
+
+}
+
+.div-google-map {
+
+    display: flex;
+    justify-content: end;
+    width: 50%;
+    height: 100%;
+}
+
+.google-map {
+    border-radius: 0px;
+    margin: 20px 20px 0 0;
+    width: 900px;
+    height: 500px;
+}
+
+.div-detail-contact{
+    width: 50%;
+    padding: 50px 0px 0px 200px;
+    color: white;
+    font-size:30px;
+}

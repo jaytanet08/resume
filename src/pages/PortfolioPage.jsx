@@ -2,11 +2,11 @@
 const Portfolio = () => (
     <div
         id="Portfolio"
+
+        // className='bg-home'
         style={{
             width: '98.9vw',
-            height: '100vh',
-            textAlign: 'center',
-            background: 'red',
+            height: '1000px', 
         }}
     />
 );

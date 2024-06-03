@@ -1,6 +1,6 @@
 .label-navber {
 
-    font-size: 14px;
+    font-size: 20px;
     margin: 5px 5px 0px 5px;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .div-nav {
-
+    height: 100px;
     display: flex;
     align-items: center;
     margin-bottom: -5px;
@@ -31,30 +31,23 @@
 }
 
 .nav-links {
-
-
     display: flex;
     justify-content: flex-end;
-
 }
 
 .navbar {
-    width: 100hv;
-    /* ให้ Navbar ของคุณเต็มความกว้างของหน้าจอ */
+    width: 100%;
+
 }
 
 
-.div-img-tanet {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    padding: 50px;
-    margin-top: 80px;
-}
-
-.img-tanet {
-    width: 80%;
-    height: 100%;
-    background-size: cover;
-    border-radius: 30px
+body {
+  
+    background-image: url("../../../public/assets/img/bg4.png");
+    background-size: cover; /* ทำให้ภาพครอบคลุมเต็มพื้นที่ */
+    background-repeat: no-repeat; /* ป้องกันการทำซ้ำของภาพ */
+    background-attachment: fixed; /* ทำให้ภาพพื้นหลังคงที่เมื่อเลื่อนหน้าเว็บไซต์ */
+    background-position: center; /* จัดภาพให้อยู่ตรงกลาง */
+    margin: 0; /* ลบ margin เริ่มต้นของ body */
+    padding: 0; /* ลบ padding เริ่มต้นของ body */
 }
