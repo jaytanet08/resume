@@ -13,23 +13,23 @@ const SkillPage = () => (
                 </div>
                 <div className='div-img-main'>
                     <div className='div-img-skill'>
-                        <img className='img-skill' src="/public/assets/img/f1.png" />
+                        <img className='img-skill' src="/assets/img/f1.png" />
                     </div>
                     <div className='div-img-skill'>
-                        <img className='img-skill' src="/public/assets/img/f2.png" />
+                        <img className='img-skill' src="/assets/img/f2.png" />
                     </div>
                     <div className='div-img-skill'>
-                        <img className='img-skill' src="/public/assets/img/f3.png" />
+                        <img className='img-skill' src="/assets/img/f3.png" />
                     </div>
 
                     <div className='div-img-skill'>
-                        <img className='img-skill' src="/public/assets/img/f5.png" />
+                        <img className='img-skill' src="/assets/img/f5.png" />
                     </div>
                     <div className='div-img-skill'>
-                        <img className='img-skill' src="/public/assets/img/f6.png" />
+                        <img className='img-skill' src="/assets/img/f6.png" />
                     </div>
                     <div className='div-img-skill'>
-                        <img className='img-skill' src="/public/assets/img/f4.png" />
+                        <img className='img-skill' src="/assets/img/f4.png" />
                     </div>
                 </div>
                 <div className='div-label'>
@@ -37,13 +37,13 @@ const SkillPage = () => (
                 </div>
                 <div className='div-img-main'>
                     <div className='div-img-skill'>
-                        <img className='img-skill' src="/public/assets/img/b1.png" />
+                        <img className='img-skill' src="/assets/img/b1.png" />
                     </div>
                     <div className='div-img-skill'>
-                        <img className='img-skill' src="/public/assets/img/b2.png" />
+                        <img className='img-skill' src="/assets/img/b2.png" />
                     </div>
                     <div className='div-img-skill'>
-                        <img className='img-skill' src="/public/assets/img/b3.png" />
+                        <img className='img-skill' src="/assets/img/b3.png" />
                     </div>
                 </div>
                 <div className='div-label'>
@@ -51,16 +51,16 @@ const SkillPage = () => (
                 </div>
                 <div className='div-img-main'>
                     <div className='div-img-skill'>
-                        <img className='img-skill' src="/public/assets/img/db1.png" />
+                        <img className='img-skill' src="/assets/img/db1.png" />
                     </div>
                     <div className='div-img-skill'>
-                        <img className='img-skill' src="/public/assets/img/db2.png" />
+                        <img className='img-skill' src="/assets/img/db2.png" />
                     </div>
                     <div className='div-img-skill'>
-                        <img className='img-skill' src="/public/assets/img/db3.png" />
+                        <img className='img-skill' src="/assets/img/db3.png" />
                     </div>
                     <div className='div-img-skill'>
-                        <img className='img-skill' src="/public/assets/img/db4.jpg" />
+                        <img className='img-skill' src="/assets/img/db4.jpg" />
                     </div>
                 </div>
                 <div className='div-label'>
@@ -68,10 +68,10 @@ const SkillPage = () => (
                 </div>
                 <div className='div-img-main'>
                     <div className='div-img-skill'>
-                        <img className='img-skill' src="/public/assets/img/t1.png" />
+                        <img className='img-skill' src="/assets/img/t1.png" />
                     </div>
                     <div className='div-img-skill'>
-                        <img className='img-skill' src="/public/assets/img/t2.png" />
+                        <img className='img-skill' src="/assets/img/t2.png" />
                     </div>
 
                 </div>
@@ -80,7 +80,7 @@ const SkillPage = () => (
                 </div>
                 <div className='div-img-main'>
                     <div className='div-img-skill'>
-                        <img className='img-skill' src="/public/assets/img/c.png" />
+                        <img className='img-skill' src="/assets/img/c.png" />
                     </div>
 
 

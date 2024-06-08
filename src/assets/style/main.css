@@ -43,7 +43,7 @@
 
 body {
 
-    background-image: url("../../../public/assets/img/bg4.png");
+    background-image: url("/assets/img/bg4.png");
     background-size: cover;
     /* ทำให้ภาพครอบคลุมเต็มพื้นที่ */
     background-repeat: no-repeat;

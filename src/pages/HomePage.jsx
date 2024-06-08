@@ -46,7 +46,7 @@ const HomePage = () => {
                     </div>
 
                     <div className='div-img-tanet'>
-                        <animated.img className="img-tanet" src="../../public/assets/img/tanet2.png" alt="Tanet" style={springProps} />
+                        <animated.img className="img-tanet" src="/assets/img/tanet2.png" alt="Tanet" style={springProps} />
                     </div>
 
                 </div>
