@@ -10,7 +10,7 @@ const SkillPage = () => (
         }}
     >
         -
-        <div className="div-main-skill">
+        {/* <div className="div-main-skill">
             <div className='div-img-skill'>
                 <img className='img-skill' src="/public/assets/img/s1.png" />
             </div>
@@ -44,7 +44,7 @@ const SkillPage = () => (
             <div className='div-img-skill'>
                 <img className='img-skill' src="/public/assets/img/s11.png" />
             </div>
-        </div>
+        </div> */}
 
 
 

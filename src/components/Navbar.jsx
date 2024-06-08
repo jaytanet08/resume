@@ -8,15 +8,15 @@ function Navbar() {
             <Anchor
 
                 // style={{ background: "#FFFFFF" }}
-                className='anchor-body '
+                className='anchor-body'
                 direction="horizontal">
                 <div className='div-nav'>
-                    <div className="div-cv">L.Tanet</div>
+                    {/* <div className="div-cv">L.Tanet</div> */}
                     <div className="nav-links ">
                         <Link href="#Home" title="Home" className='label-navber' />
                         <Link href="#Contact" title="Contact" className='label-navber' />
-                        <Link href="#Skill" title="Skill" className='label-navber' />
-                        <Link href="#Portfolio" title="Portfolio" className='label-navber' />
+                        {/* <Link href="#Skill" title="Skill" className='label-navber' />
+                        <Link href="#Portfolio" title="Portfolio" className='label-navber' /> */}
                     </div>
                 </div>
             </Anchor>
