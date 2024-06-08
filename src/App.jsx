@@ -11,7 +11,7 @@ const App = () => (
     <HomePage />
     <Contact />
     <SkillPage />
-    {/* <PortfolioPage />  */}
+    <PortfolioPage /> 
   </>
 );
 

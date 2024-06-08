@@ -15,8 +15,8 @@ function Navbar() {
                     <div className="nav-links ">
                         <Link href="#Home" title="Home" className='label-navber' />
                         <Link href="#Contact" title="Contact" className='label-navber' />
-                        {/* <Link href="#Skill" title="Skill" className='label-navber' />
-                        <Link href="#Portfolio" title="Portfolio" className='label-navber' /> */}
+                         <Link href="#Skill" title="Skill" className='label-navber' />
+                        {/* <Link href="#Portfolio" title="Portfolio" className='label-navber' />  */}
                     </div>
                 </div>
             </Anchor>

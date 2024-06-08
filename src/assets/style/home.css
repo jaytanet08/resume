@@ -6,9 +6,14 @@
 }
 
 .content-wrapper {
+
     display: flex;
     justify-content: center;
     align-items: flex-start;
+}
+
+.div-btn-cv {
+    margin: 20px 0px 20px 0px;
 }
 
 .profile-div {
@@ -29,7 +34,7 @@
 }
 
 .div-name-person {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
     color: white;
 }
@@ -41,18 +46,19 @@
 }
 
 .div-home-left {
+    flex: 1;
     display: grid;
     align-items: center;
     justify-content: center;
-    width: 60%;
-    margin-right: 2rem;
+    width: 50%;
+
 
 }
 
 .div-img-tanet {
-    width: 40%;
-    display: flex;
-    align-items: center;
+    flex: 1;
+
+
 
 }
 
@@ -62,6 +68,11 @@
 
 
 @media (max-width: 1346px) {
+
+    .div-name-person {
+        font-size: 4vw;
+
+    }
 
     .div-main-homepage {
         display: grid;
