@@ -17,7 +17,7 @@ function Contact() {
                 className='content-wrapper'
 
             >
-
+             
                 <div className='div-main-contact'>
                     <animated.div style={springProps}>
                         <div className='div-google-map'>

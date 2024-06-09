@@ -5,6 +5,8 @@ import SkillPage from './pages/SkillPage';
 import PortfolioPage from './pages/PortfolioPage';
 import Contact from './pages/Contact';
 import Education from './pages/Education';
+import Experience from './pages/Experience';
+import Layout from './pages/Layout';
 
 const App = () => (
   <>
@@ -13,7 +15,9 @@ const App = () => (
     <Contact />
     <Education />
     <SkillPage />
+    <Experience/>
     <PortfolioPage /> 
+    <Layout/>
   </>
 );
 

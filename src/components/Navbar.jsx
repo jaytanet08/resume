@@ -35,7 +35,7 @@ function Navbar() {
               duration={1000}
               offset={-200}
             >
-              Home
+              Profile
             </ScrollLink>
             <ScrollLink
               to="Contact"
@@ -65,6 +65,15 @@ function Navbar() {
               offset={-200}
             >
               Skill
+            </ScrollLink>
+            <ScrollLink
+              to="Experience"
+              className='label-navber'
+              smooth="easeInOutQuart"
+              duration={1000}
+              offset={-200}
+            >
+              Experience
             </ScrollLink>
          
           </div>

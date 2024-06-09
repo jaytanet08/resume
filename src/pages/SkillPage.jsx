@@ -11,14 +11,14 @@ const SkillPage = () => {
             effect: 'slideRight',
         },
         {
-            title: 'Backend',
-            images: ['/assets/img/b1.png', '/assets/img/b2.png', '/assets/img/b3.png','/assets/img/t1.png', '/assets/img/t2.png','/assets/img/c.png'],
+            title: 'Backend/Tool',
+            images: ['/assets/img/b1.png', '/assets/img/b2.png', '/assets/img/b3.png','/assets/img/t1.png', '/assets/img/t2.png','/assets/img/t3.png'],
 
             effect: 'slideLeft',
         },
         {
-            title: 'Database',
-            images: ['/assets/img/db1.png', '/assets/img/db2.png', '/assets/img/db3.png', '/assets/img/db4.jpg'],
+            title: 'Database/Cloud',
+            images: ['/assets/img/db1.png', '/assets/img/db2.png', '/assets/img/db3.png', '/assets/img/db4.jpg','/assets/img/c.png'],
             effect: 'zoomIn',
         },
         // {

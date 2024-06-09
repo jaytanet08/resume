@@ -1,6 +1,6 @@
 import '../assets/style/home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faLine } from '@fortawesome/free-brands-svg-icons';
 import { Button } from 'antd';
 import { useSpring, animated } from 'react-spring';
 const HomePage = () => {
@@ -21,7 +21,7 @@ const HomePage = () => {
 
 
                     <div className='div-home-left'>
-                            <div className='div-in-left'>
+                        <div className='div-in-left'>
                             <div className='profile-div'>PROFILE</div>
                             <div className='div-name-person'>Tanet Limsumangkolkul</div>
                             <div className='div-detail'>
@@ -32,14 +32,19 @@ const HomePage = () => {
                                 apply my education and skills to software development.
                             </div>
                             <div className='div-btn-cv'>
-                                <Button className='btn-cv' type="primary">Download CV</Button>
+                                <a href="/assets/file/cv_tanet.pdf" download className='btn-cv'>
+                                    <Button type="primary">Download CV</Button>
+                                </a>
                             </div>
                             <div className='div-icon'>
-                                <a href="https://github.com/yourusername" className="icon-github" target="_blank" rel="noopener noreferrer">
-                                    <FontAwesomeIcon icon={faGithub} size="3x" />
+                                <a href="https://github.com/jaytanet08" className="icon-github" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon icon={faGithub} size="2x" />
                                 </a>
-                                <a href="https://www.linkedin.com/in/yourusername" className="icon-linkin" target="_blank" rel="noopener noreferrer">
-                                    <FontAwesomeIcon icon={faLinkedin} size="3x" />
+                                <a href="https://www.linkedin.com/in/tanet-limsumagkolkun-3039a51b7" className="icon-linkin" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                                </a>
+                                <a href="https://line.me/ti/p/่jaytanet" className="icon-line" target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon icon={faLine} size="2x" />
                                 </a>
                             </div>
                         </div>

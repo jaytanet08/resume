@@ -14,18 +14,53 @@
 
 .div-btn-cv {
     margin: 20px 0px 20px 0px;
+
+}
+
+.btn-cv {
+    background-color: #100483;
+
+}
+
+.div-icon {
+    display: flex;
+}
+
+.icon-github {
+    margin-right: 1rem;
+    background-color: white;
+    color: #000000;
+    padding: 0.3rem;
+    border-radius: 0.25rem;
+}
+
+
+.icon-linkin {
+    margin-right: 1rem;
+    color: white;
+    background-color: #0077B5;
+    padding: 0.3rem;
+    border-radius: 0.25rem;
+}
+
+.icon-line {
+    background-color: rgb(255, 255, 255);
+    color: #00ff00;
+    padding: 0.3rem;
+    border-radius: 0.25rem;
 }
 
 .profile-div {
-    font-size: 30px;
+    font-size: 1.5rem;
     font-weight: bold;
-    color: white;
-    width: 350px;
+    color: rgb(249, 249, 249);
+    width: 200px;
     height: 50px;
-    background-color: greenyellow;
+    background-color: rgba(16, 236, 42, 0.816);
     border-radius: 10px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .div-main-homepage {
@@ -109,6 +144,7 @@
 }
 
 @media (max-width: 510px) {
+
 
     .div-name-person {
         font-size: 25px;

@@ -24,7 +24,16 @@
 .ant-steps-item-title {
     font-size: 0.9rem !important;
     color: white !important;
+   
 }
+
+
+.ant-steps-item-title::after {
+    background-color: rgb(68, 0, 255)  !important; /* เปลี่ยนสีตามที่ต้องการ */
+
+}
+
+
 
 .ant-steps-item-description {
     font-size: 0.7rem !important;
