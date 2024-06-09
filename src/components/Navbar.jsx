@@ -1,27 +1,77 @@
-import { Anchor } from 'antd';
+import React, { useState, useEffect } from 'react';
+import { Link as ScrollLink } from 'react-scroll';
 import '../assets/style/main.css';
-const { Link } = Anchor;
+
 
 function Navbar() {
-    return (
-        <nav className="navbar">
-            <Anchor
+    const [isNavbarFixed, setIsNavbarFixed] = useState(false);
 
-                // style={{ background: "#FFFFFF" }}
-                className='anchor-body'
-                direction="horizontal">
-                <div className='div-nav'>
-                    {/* <div className="div-cv">L.Tanet</div> */}
-                    <div className="nav-links ">
-                        <Link href="#Home" title="Home" className='label-navber' />
-                        <Link href="#Contact" title="Contact" className='label-navber' />
-                         <Link href="#Skill" title="Skill" className='label-navber' />
-                        {/* <Link href="#Portfolio" title="Portfolio" className='label-navber' />  */}
-                    </div>
-                </div>
-            </Anchor>
-        </nav>
-    );
+    useEffect(() => {
+      const handleScroll = () => {
+        const offset = window.scrollY;
+        if (offset > 50) {
+          setIsNavbarFixed(true);
+        } else {
+          setIsNavbarFixed(false);
+        }
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+  
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, []);
+    
+  return (
+    <nav className={`navbar ${isNavbarFixed ? 'fixed' : ''}`}>
+      <div className='anchor-body'>
+        <div className='div-nav'>
+          <div className="nav-links">
+            <ScrollLink
+              to="Home"
+              className='label-navber'
+              smooth="easeInOutQuart"
+              duration={1000}
+              offset={-200}
+            >
+              Home
+            </ScrollLink>
+            <ScrollLink
+              to="Contact"
+              className='label-navber'
+              smooth="easeInOutQuart"
+              duration={1000}
+              offset={-200}
+            >
+              Contact
+            </ScrollLink>
+
+            <ScrollLink
+              to="Education"
+              className='label-navber'
+              smooth="easeInOutQuart"
+              duration={1000}
+              offset={-200}
+            >
+              Education
+            </ScrollLink>
+            
+            <ScrollLink
+              to="Skill"
+              className='label-navber'
+              smooth="easeInOutQuart"
+              duration={1000}
+              offset={-200}
+            >
+              Skill
+            </ScrollLink>
+         
+          </div>
+        </div>
+      </div>
+    </nav>
+  );
 }
 
 export default Navbar;

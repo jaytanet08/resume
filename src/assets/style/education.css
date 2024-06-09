@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 100px auto;
+
+}
+
+
+.div-main-education {
+    width: 95%;
+
+}
+.div-label{
+    display: flex;
+    justify-content: center;
+}
+.label-education{
+    color: white;
+    font-size: 1rem;
+    margin: 2rem;
+    font-weight: bold;
+}
+/* Adjust font size */
+.ant-steps-item-title {
+    font-size: 0.9rem !important;
+    color: white !important;
+}
+
+.ant-steps-item-description {
+    font-size: 0.7rem !important;
+    color: white !important;
+}
+

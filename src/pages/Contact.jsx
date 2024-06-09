@@ -17,8 +17,9 @@ function Contact() {
                 className='content-wrapper'
 
             >
-                <animated.div style={springProps}>
-                    <div className='div-main-contact'>
+
+                <div className='div-main-contact'>
+                    <animated.div style={springProps}>
                         <div className='div-google-map'>
                             <div className='div-in-google-map'>
                                 <iframe
@@ -30,17 +31,18 @@ function Contact() {
                                 </iframe>
                             </div>
                         </div>
-                        <div className='div-detail-contact'>
-                            <div>Tel: 0982846992</div>
-                            <div>Email: jaytanet@gmail.com </div>
-                            <div>Address: 56 road rama2 alley 51
-                                Subdistrict thakam<br />
-                                District Bang Khun Thian
-                                Bangkok 10150
-                            </div>
+                    </animated.div>
+                    <div className='div-detail-contact'>
+                        <div>Tel: 0982846992</div>
+                        <div>Email: jaytanet@gmail.com </div>
+                        <div>Address: 56 road rama2 alley 51
+                            Subdistrict thakam<br />
+                            District Bang Khun Thian
+                            Bangkok 10150
                         </div>
                     </div>
-                </animated.div>
+                </div>
+
             </div>
         </div >
     )

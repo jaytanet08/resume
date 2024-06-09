@@ -21,7 +21,7 @@ const HomePage = () => {
 
 
                     <div className='div-home-left'>
-                        <div className='div-in-left'>
+                            <div className='div-in-left'>
                             <div className='profile-div'>PROFILE</div>
                             <div className='div-name-person'>Tanet Limsumangkolkul</div>
                             <div className='div-detail'>
