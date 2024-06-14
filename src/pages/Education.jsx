@@ -26,13 +26,18 @@ function Education() {
                             {
                                 title: 'Vocational Certificate Level',
                                 status: 'finish',
-                                description: 'Witthayalai Theknoloyi Mit Phon Borihan Thurakit College',
+                                description: (<>
+                                    Witthayalai Theknoloyi Mit Phon Borihan Thurakit College<br /># Computer bussiness
+                                </>),
+
                                 icon: <SolutionOutlined />, // เปลี่ยนเป็นไอคอนที่เหมาะสม
                             },
                             {
                                 title: "Bachelor's degree",
                                 status: 'finish',
-                                description: 'Rajamangala University of Technology Krungthep',
+                                description: (<>
+                                  Rajamangala University of Technology Krungthep<br /># Information system
+                                </>),
                                 icon: < UserOutlined />, // เปลี่ยนเป็นไอคอนที่เหมาะสม
                             },
 

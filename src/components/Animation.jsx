@@ -1,5 +1,6 @@
 import { useSpring, animated } from 'react-spring';
 import { useInView } from 'react-intersection-observer';
+import '../assets/style/skill.css';
 const Animation = ({ title, images, effect }) => {
     const [ref, inView] = useInView({
       triggerOnce: true,

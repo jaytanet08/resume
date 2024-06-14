@@ -1,8 +1,6 @@
 .container {
     width: 100%;
     max-width: 1200px;
-
-
 }
 
 .content-wrapper {
@@ -11,13 +9,9 @@
     align-items: flex-start;
 }
 
-
-
 .div-main-contact {
     display: flex;
-
 }
-
 
 .div-google-map {
     width: 700px;
@@ -34,21 +28,16 @@
 }
 
 .div-detail-contact {
-
     width: 480px;
-
     color: white;
     font-size: 1rem;
-  
 }
 
 
 
 @media (max-width: 1346px) {
-
     .div-main-contact {
         display: grid;
-
     }
 
     .div-google-map {

@@ -9,7 +9,7 @@ const HomePage = () => {
     const springProps = useSpring({
         opacity: 1,
         transform: 'translateX(0px)',
-        from: { opacity: 0, transform: 'translateX(500px)' },
+        from: { opacity: 0, transform: 'translateX(0px)' },
         config: { duration: 1000 },
 
     });

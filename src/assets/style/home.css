@@ -6,7 +6,6 @@
 }
 
 .content-wrapper {
-
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -14,12 +13,10 @@
 
 .div-btn-cv {
     margin: 20px 0px 20px 0px;
-
 }
 
 .btn-cv {
     background-color: #100483;
-
 }
 
 .div-icon {
@@ -76,8 +73,7 @@
 
 .div-detail {
     color: white;
-
-    font-size: 20px;
+    font-size: 1rem;
 }
 
 .div-home-left {
@@ -86,15 +82,10 @@
     align-items: center;
     justify-content: center;
     width: 50%;
-
-
 }
 
 .div-img-tanet {
     flex: 1;
-
-
-
 }
 
 .img-tanet {
@@ -103,15 +94,12 @@
 
 
 @media (max-width: 1346px) {
-
     .div-name-person {
         font-size: 4vw;
-
     }
 
     .div-main-homepage {
         display: grid;
-
     }
 
     .div-home-left {
@@ -119,7 +107,6 @@
         margin-right: 0rem;
         display: grid;
         justify-content: center;
-
     }
 
     .div-in-left {
@@ -129,7 +116,6 @@
         /* จัดกึ่งกลางแนวนอน */
         text-align: left;
         /* จัดเนื้อหาภายในกึ่งกลาง */
-
     }
 
     .div-img-tanet {
@@ -144,8 +130,6 @@
 }
 
 @media (max-width: 510px) {
-
-
     .div-name-person {
         font-size: 25px;
     }

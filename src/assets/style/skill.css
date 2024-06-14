@@ -19,13 +19,16 @@
 .div-label {
     display: flex;
     justify-content: center;
+
 }
 
 .label-title {
     font-size: 1rem;
     color: white;
-    margin-bottom: 2vw;
+    margin-top: 2vw;
     font-weight: bold;
+
+  
 }
 
 .div-img-main {
@@ -35,9 +38,9 @@
 }
 
 .div-img-skill {
-    margin: 35px;
-    width: 10%;
-    height: 10%;
+    margin: 3rem;
+    width: 7%;
+    height: 7%;
 }
 
 .img-skill {
@@ -47,8 +50,9 @@
 
 @media (max-width: 1346px) {
     .div-img-skill {
-        margin: 2vw;
-
+        width: 10%;
+        height: 10%;
+        margin: 2.5vw;
     }
 }
 
