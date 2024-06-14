@@ -22,7 +22,7 @@ const HomePage = () => {
 
                     <div className='div-home-left'>
                         <div className='div-in-left'>
-                            <div className='profile-div'>PROFILE</div>
+                            <div className='profile-div'>About Me</div>
                             <div className='div-name-person'>Tanet Limsumangkolkul</div>
                             <div className='div-detail'>
                                 My major is Information System with experience
@@ -33,7 +33,7 @@ const HomePage = () => {
                             </div>
                             <div className='div-btn-cv'>
                                 <a href="/assets/file/cv_tanet.pdf" download className='btn-cv'>
-                                    <Button type="primary">Download CV</Button>
+                                    <Button type="primary" >Download CV</Button>
                                 </a>
                             </div>
                             <div className='div-icon'>
@@ -51,7 +51,7 @@ const HomePage = () => {
                     </div>
 
                     <div className='div-img-tanet'>
-                        <animated.img className="img-tanet" src="/assets/img/tanet2.png" alt="Tanet" style={springProps} />
+                        <animated.img className="img-tanet" src="/assets/img/tanetv6.png" alt="Tanet" style={springProps} />
                     </div>
 
                 </div>

@@ -86,10 +86,13 @@
 
 .div-img-tanet {
     flex: 1;
+    margin-left:-3rem ;
+    display: flex;
+    justify-content: center;
 }
 
 .img-tanet {
-    width: 100%;
+    width: 50%;
 }
 
 
@@ -119,13 +122,16 @@
     }
 
     .div-img-tanet {
+        margin-top: 2rem;
+        margin-left:0rem ;
         width: 100%;
         display: flex;
         justify-content: center;
     }
 
+    
     .img-tanet {
-        width: 60%;
+        width: 30%;
     }
 }
 
