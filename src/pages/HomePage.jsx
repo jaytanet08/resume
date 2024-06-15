@@ -10,15 +10,17 @@ const HomePage = () => {
     const [index, setIndex] = useState(0);
 
     useEffect(() => {
-         setTimeout(() => {
+        let time = 300;
+        setTimeout(() => {
             if (index < textHelloWorld.length) {
                 setTextEffect(textHelloWorld.substr(0, index + 1));
                 setIndex(index + 1);
             } else {
-                setTextEffect("F");
+                setTextEffect("Full Stack Developer");
                 setIndex(0);
+                time=5000;
             }
-        }, 300); // หน่วงเวลา 500 มิลลิวินาทีต่อตัวอักษรหนึ่งตัว
+        }, time); // หน่วงเวลา 500 มิลลิวินาทีต่อตัวอักษรหนึ่งตัว
 
     }, [index]);
 
