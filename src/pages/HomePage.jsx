@@ -5,7 +5,7 @@ import { faGithub, faLinkedin, faLine } from '@fortawesome/free-brands-svg-icons
 import { Button } from 'antd';
 import { useSpring, animated } from 'react-spring';
 const HomePage = () => {
-    const textHelloWorld = "HELLO WORLD";
+    const textHelloWorld = "Full Stack Developer";
     const [textEffect, setTextEffect] = useState("")
     const [index, setIndex] = useState(0);
 
@@ -15,10 +15,10 @@ const HomePage = () => {
                 setTextEffect(textHelloWorld.substr(0, index + 1));
                 setIndex(index + 1);
             } else {
-                setTextEffect("H");
+                setTextEffect("F");
                 setIndex(0);
             }
-        }, 500); // หน่วงเวลา 500 มิลลิวินาทีต่อตัวอักษรหนึ่งตัว
+        }, 300); // หน่วงเวลา 500 มิลลิวินาทีต่อตัวอักษรหนึ่งตัว
 
     }, [index]);
 
