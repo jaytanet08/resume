@@ -1,9 +1,26 @@
 import '../assets/style/home.css';
+import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faLine } from '@fortawesome/free-brands-svg-icons';
 import { Button } from 'antd';
 import { useSpring, animated } from 'react-spring';
 const HomePage = () => {
+    const textHelloWorld = "HELLO WORLD";
+    const [textEffect, setTextEffect] = useState("")
+    const [index, setIndex] = useState(0);
+
+    useEffect(() => {
+         setTimeout(() => {
+            if (index < textHelloWorld.length) {
+                setTextEffect(textHelloWorld.substr(0, index + 1));
+                setIndex(index + 1);
+            } else {
+                setTextEffect("H");
+                setIndex(0);
+            }
+        }, 500); // หน่วงเวลา 500 มิลลิวินาทีต่อตัวอักษรหนึ่งตัว
+
+    }, [index]);
 
 
     const springProps = useSpring({
@@ -30,6 +47,9 @@ const HomePage = () => {
                                 and work. That gave me skills in work experience,
                                 communication teamwork and coding skill. I can
                                 apply my education and skills to software development.
+                            </div>
+                            <div >
+                                <label className='label-hello-world'>{textEffect}</label>
                             </div>
                             <div className='div-btn-cv'>
                                 <a href="/assets/file/cv_tanet.pdf" download className='btn-cv'>

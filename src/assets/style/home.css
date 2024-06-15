@@ -11,6 +11,12 @@
     align-items: flex-start;
 }
 
+.label-hello-world {
+    color: #5e35b1;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
 .div-btn-cv {
     margin: 20px 0px 20px 0px;
 }
@@ -48,12 +54,12 @@
 }
 
 .profile-div {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: bold;
     color: rgb(249, 249, 249);
     width: 200px;
     height: 50px;
-    background-color: rgba(16, 236, 42, 0.816);
+    background-color: #5e35b1;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -66,7 +72,7 @@
 }
 
 .div-name-person {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: white;
 }
@@ -86,7 +92,7 @@
 
 .div-img-tanet {
     flex: 1;
-    margin-left:-3rem ;
+    margin-left: -3rem;
     display: flex;
     justify-content: center;
 }
@@ -123,13 +129,13 @@
 
     .div-img-tanet {
         margin-top: 2rem;
-        margin-left:0rem ;
+        margin-left: 0rem;
         width: 100%;
         display: flex;
         justify-content: center;
     }
 
-    
+
     .img-tanet {
         width: 350px;
     }
