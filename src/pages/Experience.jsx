@@ -19,6 +19,7 @@ function Experience() {
                             {
                                 children: (
                                     <>
+                                        <div className='labal-position'>Programer | Bizpotentail  (Mar 2022 - Nov 2022) </div>
                                         <label className='labal-experience-detail'>- I am responsible for managing and developing several systems, including CRA ERP EDU (MA), an educational system for Chulabhorn Royal Academy, and MUIC (MA), the educational system for Mahidol University. I also handle SIRIRAJ, an educational system for Siriraj Hospital, TSRI_HR, a welfare system for the Office of the Higher Education Commission, and MRTA_HR, a welfare system for the Mass Rapid Transit Authority of Thailand.</label>
                                         <div><label className='labal-experience-detail'> - My responsibilities include adding new functionalities or modifying the systems according to customer requirements, sending email notifications in various formats, creating functions to import data from Excel to the database, and generating Word files in different formats.</label></div>
                                     </>
@@ -27,7 +28,7 @@ function Experience() {
                             {
                                 children: (
                                     <>
-                                        <div> </div>
+                                        <div className='labal-position'>Full Stack Developer | Rama 2 Medical Group  (Sep 2023 - Present) </div>
                                         API Creation for the Anyhos Application
                                         <div> Adding, deleting, and modifying data</div>
                                         <div>  Handling Firebase notifications</div>

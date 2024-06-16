@@ -4,25 +4,25 @@ import '../assets/style/main.css';
 
 
 function Navbar() {
-    const [isNavbarFixed, setIsNavbarFixed] = useState(false);
+  const [isNavbarFixed, setIsNavbarFixed] = useState(false);
 
-    useEffect(() => {
-      const handleScroll = () => {
-        const offset = window.scrollY;
-        if (offset > 50) {
-          setIsNavbarFixed(true);
-        } else {
-          setIsNavbarFixed(false);
-        }
-      };
-  
-      window.addEventListener('scroll', handleScroll);
-  
-      return () => {
-        window.removeEventListener('scroll', handleScroll);
-      };
-    }, []);
-    
+  useEffect(() => {
+    const handleScroll = () => {
+      const offset = window.scrollY;
+      if (offset > 50) {
+        setIsNavbarFixed(true);
+      } else {
+        setIsNavbarFixed(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <nav className={`navbar ${isNavbarFixed ? 'fixed' : ''}`}>
       <div className='anchor-body'>
@@ -35,7 +35,7 @@ function Navbar() {
               duration={1000}
               offset={-200}
             >
-              Profile
+              About Me
             </ScrollLink>
             <ScrollLink
               to="Contact"
@@ -56,7 +56,7 @@ function Navbar() {
             >
               Education
             </ScrollLink>
-            
+
             <ScrollLink
               to="Skill"
               className='label-navber'
@@ -84,7 +84,7 @@ function Navbar() {
             >
               Portfolio
             </ScrollLink>
-         
+
           </div>
         </div>
       </div>

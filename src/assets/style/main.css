@@ -2,8 +2,9 @@
     width: 100vw;
 }
 .label-navber {
-    font-size: 0.8rem;
-    margin: 5px 5px 0px 5px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin: 5px 5px 0px 10px;
     cursor: pointer;
     color: white;
 }
@@ -41,7 +42,7 @@
 
 .nav-links {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .navbar {
@@ -51,7 +52,7 @@
 
 body {
 
-    background-image: url("/assets/img/bg4.png");
+    background-image: url("/assets/img/bg10.png");
     background-size: cover;
     /* ทำให้ภาพครอบคลุมเต็มพื้นที่ */
     background-repeat: no-repeat;

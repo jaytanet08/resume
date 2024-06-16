@@ -15,7 +15,10 @@
     display: flex;
     justify-content: center;
 }
-
+.labal-position{
+    font-size: 1rem;
+    font-weight: bold;
+}
 .label-experience {
     color: white;
     font-size: 1rem;
@@ -24,6 +27,7 @@
 }
 
 .labal-experience-detail {
+    font-size: 1rem;
     margin-left: 1rem;
 }
 

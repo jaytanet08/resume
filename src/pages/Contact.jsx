@@ -19,6 +19,7 @@ function Contact() {
 
             >
              
+
                 <div className='div-main-contact'>
                     <animated.div style={springProps}>
                         <div className='div-google-map'>
@@ -33,6 +34,7 @@ function Contact() {
                             </div>
                         </div>
                     </animated.div>
+             
                     <div className='div-detail-contact'>
                         <div>Tel: 0982846992</div>
                         <div>Email: jaytanet@gmail.com </div>
