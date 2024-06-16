@@ -54,8 +54,8 @@ const HomePage = () => {
                                 <label className='label-hello-world'>{textEffect}</label>
                             </div>
                             <div className='div-btn-cv'>
-                                <a href="/assets/file/cv_tanet.pdf" download className='btn-cv'>
-                                    <Button type="primary" >Download CV</Button>
+                                <a href="/assets/file/cv_tanet.pdf" download >
+                                    <Button className='btn-cv' type="primary" >Download CV</Button>
                                 </a>
                             </div>
                             <div className='div-icon'>
