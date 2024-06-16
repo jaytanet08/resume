@@ -28,7 +28,7 @@
     z-index: 1000; /* ตั้งค่า z-index สูงกว่าเพื่อให้ Navbar แสดงอยู่ด้านบน */
   }
 .div-nav {
-    height: 80px;
+    height: 50px;
     display: flex;
     align-items: center;
     margin-bottom: -5px;

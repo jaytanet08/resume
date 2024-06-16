@@ -22,7 +22,7 @@ function Education() {
                                 description: (<label style={{ fontSize: "0.8rem" }}>
                                     Rattanakosinsomphod Bangkhunthian School
                                 </label>),
-                                icon: <ReadOutlined />, // เปลี่ยนเป็นไอคอนที่เหมาะสม
+                                icon: <ReadOutlined  />, // เปลี่ยนเป็นไอคอนที่เหมาะสม
                             },
 
                             {

@@ -13,11 +13,11 @@ const App = () => (
     <div className='layout'>
       <Navbar />
       <HomePage />
-      <Contact />
+      <PortfolioPage />
       <Education />
       <SkillPage />
       <Experience />
-      <PortfolioPage />
+      <Contact />
     </div>
 
   </>
