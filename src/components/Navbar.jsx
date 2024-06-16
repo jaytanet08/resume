@@ -75,6 +75,15 @@ function Navbar() {
             >
               Experience
             </ScrollLink>
+            <ScrollLink
+              to="Portfolio"
+              className='label-navber'
+              smooth="easeInOutQuart"
+              duration={1000}
+              offset={0}
+            >
+              Portfolio
+            </ScrollLink>
          
           </div>
         </div>

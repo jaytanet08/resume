@@ -2,11 +2,10 @@
     width: 100vw;
 }
 .label-navber {
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin: 5px 5px 0px 5px;
     cursor: pointer;
     color: white;
-    font-size: 1rem;
 }
 
 .ant-anchor-link-title {
@@ -28,7 +27,7 @@
     z-index: 1000; /* ตั้งค่า z-index สูงกว่าเพื่อให้ Navbar แสดงอยู่ด้านบน */
   }
 .div-nav {
-    height: 100px;
+    height: 80px;
     display: flex;
     align-items: center;
     margin-bottom: -5px;
@@ -47,7 +46,6 @@
 
 .navbar {
     width: 100%;
-
 }
 
 
