@@ -1,6 +1,5 @@
-import React from 'react';
 import '../assets/style/portfolio.css';
-import { Card, Col, Row } from 'antd';
+import { Card } from 'antd';
 const { Meta } = Card;
 
 

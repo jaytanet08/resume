@@ -1,12 +1,19 @@
-    .layout{
-        width: 99.3vw;
+    .layout {
+        width: 99vw;
     }
+
     .label-navber {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         font-weight: bold;
         margin: 5px 5px 0px 10px;
         cursor: pointer;
         color: white;
+    }
+
+    @media (max-width: 424px) {
+        .label-navber {
+            font-size: 0.7rem;
+        }
     }
 
     .ant-anchor-link-title {
@@ -21,16 +28,20 @@
         background: black;
 
     }
+
     .navbar.fixed {
         position: fixed;
         top: 0;
         width: 100%;
-        z-index: 1000; /* ตั้งค่า z-index สูงกว่าเพื่อให้ Navbar แสดงอยู่ด้านบน */
+        z-index: 1000;
+        /* ตั้งค่า z-index สูงกว่าเพื่อให้ Navbar แสดงอยู่ด้านบน */
     }
+
     .div-nav {
-        height: 50px;
+        height: 60px;
         display: flex;
         align-items: center;
+        justify-content: space-between;
         margin-bottom: -5px;
     }
 
@@ -41,6 +52,7 @@
     }
 
     .nav-links {
+        margin-left: 5px;
         display: flex;
         justify-content: center;
     }
@@ -65,4 +77,45 @@
         /* ลบ margin เริ่มต้นของ body */
         padding: 0;
         /* ลบ padding เริ่มต้นของ body */
+    }
+
+    .language-menu {
+        position: relative;
+        margin-right: 10px;
+
+    }
+
+    .iconGlobe {
+        color: white;
+        cursor: pointer;
+    }
+
+    .language-menu ul {
+        position: absolute;
+
+        right: 0px;
+        /* เปลี่ยนจาก left: 0 เป็น right: 0 */
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 5px 15px;
+        list-style-type: none;
+        font-size: 14px;
+        display: none;
+    }
+
+
+
+    .language-menu ul.active {
+        margin-top: 3px;
+        display: block;
+    }
+
+    .language-menu li {
+        padding: 8px 10px;
+        cursor: pointer;
+    }
+
+    .language-menu li:hover {
+        background-color: #f0f0f0;
     }

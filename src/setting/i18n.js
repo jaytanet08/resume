@@ -9,14 +9,16 @@ i18n
   .use(initReactI18next)
   .init({
     fallbackLng: 'en',
-    lng: 'en', // ตั้งค่าภาษาเริ่มต้น
-    debug: true,
-    backend: {
-      loadPath: '/locales/{{lng}}/translation.json'
+    detection: {
+      order: ['queryString', 'cookie'],
+      caches: ['cookie'],
     },
-    interpolation: {
-      escapeValue: false
-    }
+    backend: {
+      loadPath: '/locales/{{lng}}/{{ns}}.json',
+    },
+    react: {
+      useSuspense: false,
+    },
   });
 
 export default i18n;

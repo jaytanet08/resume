@@ -7,30 +7,32 @@
 
 
 .div-main-education {
-
     width: 95%;
-
 }
-.div-label{
+
+.div-label {
     display: flex;
     justify-content: center;
 }
-.label-education{
+
+.label-education {
     color: white;
     font-size: 1rem;
     margin: 2rem;
     font-weight: bold;
 }
+
 /* Adjust font size */
 .ant-steps-item-title {
     font-size: 0.9rem !important;
     color: white !important;
-   
+
 }
 
 
 .ant-steps-item-title::after {
-    background-color: rgb(68, 0, 255)  !important; /* เปลี่ยนสีตามที่ต้องการ */
+    background-color: rgb(68, 0, 255) !important;
+    /* เปลี่ยนสีตามที่ต้องการ */
 
 }
 
@@ -40,4 +42,3 @@
     font-size: 0.7rem !important;
     color: white !important;
 }
-

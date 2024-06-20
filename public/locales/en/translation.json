@@ -1,5 +1,13 @@
 {
-    "welcome": "Welcome to our application!",
-    "thankYou": "Thank you for visiting."
-  }
-  
+  "navbar_menu_about": "About",
+  "navbar_menu_portfolio": "Portfolio",
+  "navbar_menu_education": "Education",
+  "navbar_menu_skill": "Skill",
+  "navbar_menu_experience": "Experience",
+  "navbar_menu_contact": "Contact",
+  "----------------------------------": "--------------------------------------------------------------------",
+  "about_title": "About Me",
+  "about_name": "Tanet Limsumangkolkul",
+  "about_detail": "My major is Information System with experience in project, internship, activities, leaned in university and work. That gave me skills in work experience, communication teamwork and coding skill. I can apply my education and skills to software development.",
+  "about_btn_download": "Download CV"
+}

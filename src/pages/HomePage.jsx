@@ -4,11 +4,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faLine } from '@fortawesome/free-brands-svg-icons';
 import { Button } from 'antd';
 import { useSpring, animated } from 'react-spring';
+import { useTranslation } from 'react-i18next';
 const HomePage = () => {
     const textHelloWorld = "Full Stack Developer";
     const [textEffect, setTextEffect] = useState("")
     const [index, setIndex] = useState(0);
-
+    const { t } = useTranslation();
     useEffect(() => {
         let time = 300;
         setTimeout(() => {
@@ -18,7 +19,7 @@ const HomePage = () => {
             } else {
                 setTextEffect("Full Stack Developer");
                 setIndex(0);
-                time=5000;
+                time = 5000;
             }
         }, time); // หน่วงเวลา 500 มิลลิวินาทีต่อตัวอักษรหนึ่งตัว
 
@@ -41,21 +42,17 @@ const HomePage = () => {
 
                     <div className='div-home-left'>
                         <div className='div-in-left'>
-                            <div className='profile-div'>About Me</div>
-                            <div className='div-name-person'>Tanet Limsumangkolkul</div>
+                            <div className='profile-div'>{t('about_title')}</div>
+                            <div className='div-name-person'>{t('about_name')}</div>
                             <div className='div-detail'>
-                                My major is Information System with experience
-                                in project, internship, activities, leaned in university
-                                and work. That gave me skills in work experience,
-                                communication teamwork and coding skill. I can
-                                apply my education and skills to software development.
+                                {t('about_detail')}
                             </div>
                             <div >
                                 <label className='label-hello-world'>{textEffect}</label>
                             </div>
                             <div className='div-btn-cv'>
                                 <a href="/assets/file/cv_tanet.pdf" download >
-                                    <Button className='btn-cv' type="primary" >Download CV</Button>
+                                    <Button className='btn-cv' type="primary" >{t('about_btn_download')} </Button>
                                 </a>
                             </div>
                             <div className='div-icon'>
