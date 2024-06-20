@@ -1,9 +1,13 @@
     .layout {
-        width: 99vw;
+        width: 98.9vw;
+    }
+
+    .navbar {
+        width: 100%;
     }
 
     .label-navber {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         font-weight: bold;
         margin: 5px 5px 0px 10px;
         cursor: pointer;
@@ -12,9 +16,10 @@
 
     @media (max-width: 424px) {
         .label-navber {
-            font-size: 0.7rem;
+            font-size: 0.65rem;
         }
     }
+
 
     .ant-anchor-link-title {
         color: white !important;
@@ -57,9 +62,6 @@
         justify-content: center;
     }
 
-    .navbar {
-        width: 100%;
-    }
 
 
     body {
@@ -80,8 +82,10 @@
     }
 
     .language-menu {
+        margin-top: 5px;
         position: relative;
         margin-right: 10px;
+
 
     }
 
