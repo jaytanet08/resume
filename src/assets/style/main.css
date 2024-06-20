@@ -1,68 +1,68 @@
-.layout{
-    width: 99.3vw;
-}
-.label-navber {
-    font-size: 0.7rem;
-    font-weight: bold;
-    margin: 5px 5px 0px 10px;
-    cursor: pointer;
-    color: white;
-}
+    .layout{
+        width: 99.3vw;
+    }
+    .label-navber {
+        font-size: 0.7rem;
+        font-weight: bold;
+        margin: 5px 5px 0px 10px;
+        cursor: pointer;
+        color: white;
+    }
 
-.ant-anchor-link-title {
-    color: white !important;
-}
+    .ant-anchor-link-title {
+        color: white !important;
+    }
 
-.ant-affix {
-    background: black;
-}
+    .ant-affix {
+        background: black;
+    }
 
-.anchor-body {
-    background: black;
+    .anchor-body {
+        background: black;
 
-}
-.navbar.fixed {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000; /* ตั้งค่า z-index สูงกว่าเพื่อให้ Navbar แสดงอยู่ด้านบน */
-  }
-.div-nav {
-    height: 50px;
-    display: flex;
-    align-items: center;
-    margin-bottom: -5px;
-}
+    }
+    .navbar.fixed {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000; /* ตั้งค่า z-index สูงกว่าเพื่อให้ Navbar แสดงอยู่ด้านบน */
+    }
+    .div-nav {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        margin-bottom: -5px;
+    }
 
-.div-cv {
-    color: white;
-    font-size: 20px;
-    margin: 15px 50px 10px 10px;
-}
+    .div-cv {
+        color: white;
+        font-size: 20px;
+        margin: 15px 50px 10px 10px;
+    }
 
-.nav-links {
-    display: flex;
-    justify-content: center;
-}
+    .nav-links {
+        display: flex;
+        justify-content: center;
+    }
 
-.navbar {
-    width: 100%;
-}
+    .navbar {
+        width: 100%;
+    }
 
 
-body {
+    body {
 
-    background-image: url("/assets/img/bg10.png");
-    background-size: cover;
-    /* ทำให้ภาพครอบคลุมเต็มพื้นที่ */
-    background-repeat: no-repeat;
-    /* ป้องกันการทำซ้ำของภาพ */
-    background-attachment: fixed;
-    /* ทำให้ภาพพื้นหลังคงที่เมื่อเลื่อนหน้าเว็บไซต์ */
-    background-position: center;
-    /* จัดภาพให้อยู่ตรงกลาง */
-    margin: 0;
-    /* ลบ margin เริ่มต้นของ body */
-    padding: 0;
-    /* ลบ padding เริ่มต้นของ body */
-}
+        background-image: url("/assets/img/bg10.png");
+        background-size: cover;
+        /* ทำให้ภาพครอบคลุมเต็มพื้นที่ */
+        background-repeat: no-repeat;
+        /* ป้องกันการทำซ้ำของภาพ */
+        background-attachment: fixed;
+        /* ทำให้ภาพพื้นหลังคงที่เมื่อเลื่อนหน้าเว็บไซต์ */
+        background-position: center;
+        /* จัดภาพให้อยู่ตรงกลาง */
+        margin: 0;
+        /* ลบ margin เริ่มต้นของ body */
+        padding: 0;
+        /* ลบ padding เริ่มต้นของ body */
+    }
