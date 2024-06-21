@@ -43,25 +43,21 @@
     .div-main-contact {
         display: grid;
     }
-
     .div-google-map {
         height: 400px;
         margin-right: 0rem;
     }
-
     .div-in-google-map {
         width: 700px;
         height: 400px;
 
     }
-
     .div-detail-contact {
         margin-top: 20px;
         width: 100%;
         color: white;
         font-size: 1.2rem;
     }
-
 }
 
 @media (max-width: 813px) {
@@ -71,7 +67,6 @@
         justify-content: center;
         align-items: center;
     }
-
     .div-in-google-map {
         display: grid;
         align-items: center;
@@ -79,13 +74,11 @@
         height: 80%;
 
     }
-
     .div-detail-contact {
         width: 100%;
         color: white;
         font-size: 1.2rem;
     }
-
 }
 
 @media (max-width: 640px) {
@@ -105,6 +98,5 @@
         height: 30vh;
 
     }
-
 
 }

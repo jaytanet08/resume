@@ -42,14 +42,14 @@ const HomePage = () => {
 
                     <div className='div-home-left'>
                         <div className='div-in-left'>
-                            <div className='profile-div'>{t('about_title')}</div>
+                        <div >
+                                <label className='label-hello-world'>{textEffect}</label>
+                            </div>
                             <div className='div-name-person'>{t('about_name')}</div>
                             <div className='div-detail'>
                                 {t('about_detail')}
                             </div>
-                            <div >
-                                <label className='label-hello-world'>{textEffect}</label>
-                            </div>
+                           
                             <div className='div-btn-cv'>
                                 <a href="/assets/file/cv_tanet.pdf" download >
                                     <Button className='btn-cv' type="primary" >{t('about_btn_download')} </Button>

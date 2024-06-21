@@ -12,9 +12,9 @@
 }
 
 .label-hello-world {
-    color: #37af33;
+    color: #2ec429;
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 3rem;
 }
 
 .div-btn-cv {
@@ -54,17 +54,24 @@
     border-radius: 0.25rem;
 }
 
+/* 
 .profile-div {
     font-size: 1.8rem;
     font-weight: bold;
-    color: white
-        /* width: 200px;
+    color: white;
+    width: 200px;
     height: 50px;
-    background-color: #37af33; */
-        /* border-radius: 10px;
+    background-color: #37af33;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
+} */
+
+.label-profile {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white
 }
 
 .div-main-homepage {
@@ -85,7 +92,7 @@
 }
 
 .div-home-left {
-
+    margin-left: 1rem;
     flex: 1.2;
     display: grid;
     align-items: center;
@@ -106,7 +113,7 @@
 
 @media (max-width: 1346px) {
     .div-name-person {
-        font-size: 4vw;
+        font-size: 2rem;
     }
 
     .div-main-homepage {
@@ -114,6 +121,7 @@
     }
 
     .div-home-left {
+        margin-left: 0rem;
         width: 100%;
         margin-right: 0rem;
         display: grid;
@@ -143,9 +151,21 @@
     }
 }
 
+@media (max-width: 623px) {
+    .label-hello-world {
+        font-size: 2.4rem;
+    }
+}
+
 @media (max-width: 510px) {
+
+
+    .label-hello-world {
+        font-size: 1.9rem;
+    }
+
     .div-name-person {
-        font-size: 25px;
+        font-size: 1.2rem;
     }
 
     .profile-div {
