@@ -13,13 +13,14 @@
 }
 
 .div-main-skill {
+
     display: grid;
 }
 
 .div-label {
     display: flex;
     justify-content: center;
-
+    margin-bottom: 20px;
 }
 
 .label-title {
