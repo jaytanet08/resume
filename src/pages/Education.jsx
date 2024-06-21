@@ -22,25 +22,23 @@ function Education() {
                                 description: (<label style={{ fontSize: "0.8rem" }}>
                                     {t("education_detail_1")}
                                 </label>),
-                                icon: <ReadOutlined />, // เปลี่ยนเป็นไอคอนที่เหมาะสม
+                                icon: <ReadOutlined style={{color:"#72d572"}} />, // เปลี่ยนเป็นไอคอนที่เหมาะสม
                             },
-
                             {
                                 title: t("education_title_2"),
                                 status: 'finish',
                                 description: (<label style={{ fontSize: "0.8rem" }}>
-                                    {t("education_detail_2")}<br />              {t("education_detail_2_1")}
+                                    {t("education_detail_2")}<br />{t("education_detail_2_1")}
                                 </label>),
-
-                                icon: <SolutionOutlined />, // เปลี่ยนเป็นไอคอนที่เหมาะสม
+                                icon: <SolutionOutlined style={{color:"#72d572"}}  />, // เปลี่ยนเป็นไอคอนที่เหมาะสม
                             },
                             {
                                 title: t("education_title_3"),
                                 status: 'finish',
                                 description: (<label style={{ fontSize: "0.8rem" }}>
-                                   {t("education_detail_3")}<br />{t("education_detail_3_1")}
+                                    {t("education_detail_3")}<br />{t("education_detail_3_1")}
                                 </label>),
-                                icon: < UserOutlined />, // เปลี่ยนเป็นไอคอนที่เหมาะสม
+                                icon: < UserOutlined style={{color:"#72d572"}} />, // เปลี่ยนเป็นไอคอนที่เหมาะสม
                             },
 
                         ]}
