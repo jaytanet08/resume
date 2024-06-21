@@ -62,7 +62,7 @@
 
 @media (max-width: 813px) {
     .div-google-map {
-        width: 100%;
+        width: 500px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -83,8 +83,9 @@
 
 @media (max-width: 640px) {
     .div-google-map {
+        width: 100%;
         height: auto;
-        margin-bottom: 10vw;
+        margin-bottom: 3vw;
 
     }
 

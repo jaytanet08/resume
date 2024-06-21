@@ -2,18 +2,15 @@
     width: 100%;
     max-width: 1200px;
     margin: 100px auto;
-
 }
 
 .content-wrapper {
-
     display: flex;
     justify-content: center;
     align-items: flex-start;
 }
 
 .div-main-skill {
-
     display: grid;
 }
 
@@ -28,12 +25,9 @@
     color: white;
     margin-top: 2vw;
     font-weight: bold;
-
-  
 }
 
 .div-img-main {
-
     display: flex;
     justify-content: center;
 }
@@ -63,5 +57,5 @@
 
     }
 
-    
+
 }
