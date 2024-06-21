@@ -1,7 +1,10 @@
 
 import '../assets/style/contact.css';
 import { useSpring, animated } from 'react-spring';
+import { useTranslation } from 'react-i18next';
+
 function Contact() {
+    const { t } = useTranslation();
     const targetLatitude = 13.664389961604185;
     const targetLongitude = 100.4471323290208;
     const springProps = useSpring({
@@ -18,7 +21,7 @@ function Contact() {
                 className='content-wrapper'
 
             >
-             
+
 
                 <div className='div-main-contact'>
                     <animated.div style={springProps}>
@@ -34,14 +37,12 @@ function Contact() {
                             </div>
                         </div>
                     </animated.div>
-             
+
                     <div className='div-detail-contact'>
-                        <div>Tel: 0982846992</div>
-                        <div>Email: jaytanet@gmail.com </div>
-                        <div>Address: 56 road rama2 alley 51
-                            Subdistrict thakam<br />
-                            District Bang Khun Thian
-                            Bangkok 10150
+                        <div className='contact_detail'>{t('cantact_detail_1')}</div>
+                        <div className='contact_detail'>{t('cantact_detail_2')}</div>
+                        <div className='contact_detail'>{t('cantact_detail_3')}<br />
+                            {t('cantact_detail_4')}
                         </div>
                     </div>
                 </div>

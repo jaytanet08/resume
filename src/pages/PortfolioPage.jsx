@@ -1,15 +1,16 @@
 import '../assets/style/portfolio.css';
 import { Card } from 'antd';
 const { Meta } = Card;
-
+import { useTranslation } from 'react-i18next';
 
 function Portfolio() {
+    const { t } = useTranslation();
     return (
         <div className="container">
             <div id="Portfolio" className="content-wrapper">
                 <div className='div-main-portfolio'>
                     <div className='div-label'>
-                        <label className='label-portfolio'>Portfolio</label>
+                        <label className='label-portfolio'>{t('portfolio_title_page')}</label>
                     </div>
                     <div className='div-port' >
                         <Card
@@ -18,8 +19,8 @@ function Portfolio() {
                             onClick={() => { console.log("12312") }}
                             cover={<img alt="example" src="/assets/img/portfolio/a1.png" />}
                         >
-                            <Meta title="Web Admin Anyhos"
-                                description="The admin web management system for the online doctor appointment website includes functions for doctor booking, document uploads, viewing appointment details, access permission management, payments, reporting, and a Lalamove car service."
+                            <Meta title={t('portfolio_title_1')}
+                                description={t('portfolio_detail_1')}
                             />
                         </Card>
                         <Card
@@ -27,8 +28,8 @@ function Portfolio() {
                             className='card'
                             cover={<img alt="example" src="/assets/img/portfolio/b1.png" />}
                         >
-                            <Meta title="Application Anyhos"
-                                description="I will manage the backend system and create APIs for the Anyhos application. This includes adding, deleting, and modifying data, handling Firebase notifications, integrating APIs with Lalamove and Chiline (a Taiwanese medical equipment company), and designing database structures using Firebase and MongoDB, as well as developing the backend with Node.js."
+                            <Meta title={t('portfolio_title_2')}
+                                description={t('portfolio_detail_2')}
                             />
                         </Card>
                         <Card
@@ -36,8 +37,8 @@ function Portfolio() {
                             className='card'
                             cover={<img alt="example" src="/assets/img/portfolio/c1.png" />}
                         >
-                            <Meta title="Web Checkin JTL"
-                                description="The organization's check-in and check-out system includes functions for checking in and out within a designated radius and for off-site check-ins. It also features check-in history viewing and internal announcements."
+                            <Meta title={t('portfolio_title_3')}
+                                description={t('portfolio_detail_3')}
                             />
                         </Card>
 

@@ -1,22 +1,23 @@
 import React from 'react';
 import '../assets/style/skill.css';
 import Animation from '../components/Animation';
-
+import { useTranslation } from 'react-i18next';
 
 const SkillPage = () => {
+    const { t } = useTranslation();
     const sections = [
         {
-            title: 'Frontend',
+            title: t("skill_title_1"),
             images: ['/assets/img/f1.png', '/assets/img/f2.png', '/assets/img/f3.png', '/assets/img/f5.png', '/assets/img/f6.png', '/assets/img/f4.png'],
             effect: 'zoomIn',
         },
         {
-            title: 'Backend/Tool',
+            title: t("skill_title_2"),
             images: ['/assets/img/b1.png', '/assets/img/b2.png', '/assets/img/b3.png', '/assets/img/t1.png', '/assets/img/t2.png', '/assets/img/t3.png'],
             effect: 'slideLeft',
         },
         {
-            title: 'Database/Cloud',
+            title: t("skill_title_3"),
             images: ['/assets/img/db1.png', '/assets/img/db2.png', '/assets/img/db3.png', '/assets/img/db4.jpg', '/assets/img/c.png'],
             effect: 'slideUp',
         },
