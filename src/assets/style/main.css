@@ -6,6 +6,10 @@
         width: 101.3%;
     }
 
+    .label-li {
+        color: black;
+    }
+
     .label-navber {
         font-size: 0.75rem;
         font-weight: bold;

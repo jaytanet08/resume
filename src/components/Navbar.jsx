@@ -109,8 +109,8 @@ function Navbar() {
               <FontAwesomeIcon className='iconGlobe' icon={faGlobe} />
             </div>
             <ul className={menuOpen ? 'active' : ''}>
-              <li onClick={() => changeLanguage('en')}>English</li>
-              <li onClick={() => changeLanguage('th')}>ไทย</li>
+              <li className='label-li' onClick={() => changeLanguage('en')}>English</li>
+              <li className='label-li' onClick={() => changeLanguage('th')}>ไทย</li>
             </ul>
           </div>
         </div>
