@@ -18,6 +18,10 @@
   "portfolio_detail_2": "I will manage the backend system and create APIs for the Anyhos application. This includes adding, deleting, and modifying data, handling Firebase notifications, integrating APIs with Lalamove and Chiline (a Taiwanese medical equipment company), and designing database structures using Firebase and MongoDB, as well as developing the backend with Node.js.",
   "portfolio_title_3": "Web Checkin JTL",
   "portfolio_detail_3": "The organization's check-in and check-out system includes functions for checking in and out within a designated radius and for off-site check-ins. It also features check-in history viewing and internal announcements.",
+  "portfolio_title_4": "Frontend Instagram Clone",
+  "portfolio_detail_4": "A virtual Instagram website built with Next.js and styled with Tailwind CSS. It is a single-page application and the design clones some parts and features of Instagram.",
+  "portfolio_title_5": "JTL Chat Web",
+  "portfolio_detail_5": "A chat website developed using React.js for the frontend with state management via Redux and styled partially with Ant Design. The backend utilizes Node.js with WebSocket.io and MongoDB.",
   "------------------------------------": "--------------------------------------------------------------------------------------------------------------",
   "education_title_page": "Education",
   "education_title_1": "High School",
@@ -65,5 +69,4 @@
   "cantact_detail_2": "Email: jaytanet@gmail.com",
   "cantact_detail_3": "Address: 56 road rama2 alley 51 Subdistrict thakam",
   "cantact_detail_4": "District Bang Khun Thian Bangkok 10150"
-  
 }

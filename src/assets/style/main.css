@@ -1,9 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
     .layout {
-        width: 98vw;
+        width: 99.7vw;
     }
 
+
     .navbar {
-        width: 101.3%;
+        width: 100%;
+        /* ปรับขนาด navbar ให้ตรงกับหน้าจอ */
+    }
+
+    .navbar.fixed {
+        width: 100%;
     }
 
     .label-li {

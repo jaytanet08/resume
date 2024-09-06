@@ -15,10 +15,12 @@
     display: flex;
     justify-content: center;
 }
-.labal-position{
+
+.labal-position {
     font-size: 1rem;
     font-weight: bold;
 }
+
 .label-experience {
     color: white;
     font-size: 1rem;
@@ -38,4 +40,13 @@
 .ant-timeline-item-content {
     font-size: 1rem !important;
     color: white !important;
+}
+
+
+@media (max-width: 813px) {
+    .labal-experience-detail {
+        font-size: 0.89rem;
+       
+    }
+ 
 }

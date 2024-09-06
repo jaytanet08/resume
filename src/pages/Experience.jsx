@@ -4,6 +4,18 @@ import { Timeline } from 'antd';
 import { useTranslation } from 'react-i18next';
 
 function Experience() {
+    const experienceDetails = [
+        'experience_detail_2_1', 'experience_detail_2_2', 'experience_detail_2_3', 
+        'experience_detail_2_4', 'experience_detail_2_5', 'experience_detail_2_6', 
+        'experience_detail_2_7', 'experience_detail_2_8', 'experience_detail_2_9',
+        'experience_detail_2_10', 'experience_detail_2_11', 'experience_detail_2_12', 
+        'experience_detail_2_13', 'experience_detail_2_14', 'experience_detail_2_15', 
+        'experience_detail_2_16', 'experience_detail_2_17', 'experience_detail_2_18', 
+        'experience_detail_2_19', 'experience_detail_2_20', 'experience_detail_2_21', 
+        'experience_detail_2_22'
+    ];
+
+    
     const { t } = useTranslation();
     return (
         <div className="container">
@@ -14,7 +26,6 @@ function Experience() {
                     </div>
                     <Timeline
                         items={[
-
                             {
                                 children: (
                                     <>
@@ -28,28 +39,9 @@ function Experience() {
                                 children: (
                                     <>
                                         <div className='labal-position'>{t('experience_title_2')}</div>
-                                        {t('experience_detail_2_1')}
-                                        <div>{t('experience_detail_2_2')}</div>
-                                        <div>{t('experience_detail_2_3')}</div>
-                                        <div>{t('experience_detail_2_4')}</div>
-                                        <div className='labal-experience-detail'> {t('experience_detail_2_5')}</div>
-                                        <div className='labal-experience-detail'>{t('experience_detail_2_6')} </div>
-                                        <div className='labal-experience-detail'>{t('experience_detail_2_7')}</div>
-                                        <div>{t('experience_detail_2_8')}</div>
-                                        <div> {t('experience_detail_2_9')}</div>
-                                        <div> {t('experience_detail_2_10')}</div>
-                                        <div>{t('experience_detail_2_11')}</div>
-                                        <div className='labal-experience-detail'>{t('experience_detail_2_12')}</div>
-                                        <div className='labal-experience-detail'>{t('experience_detail_2_13')}</div>
-                                        <div className='labal-experience-detail'>{t('experience_detail_2_14')}</div>
-                                        <div className='labal-experience-detail'>{t('experience_detail_2_15')}</div>
-                                        <div className='labal-experience-detail'>{t('experience_detail_2_16')}</div>
-                                        <div className='labal-experience-detail'>{t('experience_detail_2_17')}</div>
-                                        <div className='labal-experience-detail'>{t('experience_detail_2_18')}</div>
-                                        <div className='labal-experience-detail'>{t('experience_detail_2_19')}</div>
-                                        <div className='labal-experience-detail'>{t('experience_detail_2_20')}</div>
-                                        <div className='labal-experience-detail'>{t('experience_detail_2_21')}</div>
-                                        <div>{t('experience_detail_2_22')}</div>
+                                        {experienceDetails.map((detailKey, index) => (
+                                            <div key={index} className='labal-experience-detail'>{t(detailKey)}</div>
+                                        ))}
 
                                     </>
                                 ),

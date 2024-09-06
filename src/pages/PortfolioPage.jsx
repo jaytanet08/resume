@@ -41,8 +41,37 @@ function Portfolio() {
                                 description={t('portfolio_detail_3')}
                             />
                         </Card>
+                    </div>
 
-
+                    <div className='div-port' >
+                        <Card
+                            hoverable
+                            className='card'
+                            onClick={() => { console.log("12312") }}
+                            cover={<img alt="example" src="/assets/img/portfolio/d1.png" />}
+                        >
+                            <Meta title={t('portfolio_title_4')}
+                                description={t('portfolio_detail_4')}
+                            />
+                        </Card>
+                        <Card
+                            hoverable
+                            className='card'
+                            cover={<img alt="example" src="/assets/img/portfolio/f1.png" />}
+                        >
+                            <Meta title={t('portfolio_title_5')}
+                                description={t('portfolio_detail_5')}
+                            />
+                        </Card>
+                        <Card
+                            hoverable
+                            className='card'
+                            cover={<img alt="example" src="/assets/img/portfolio/c1.png" />}
+                        >
+                            <Meta title={t('portfolio_title_3')}
+                                description={t('portfolio_detail_3')}
+                            />
+                        </Card>
                     </div>
 
                 </div>

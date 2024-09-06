@@ -34,7 +34,7 @@
 }
 
 .contact_detail {
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 
@@ -61,8 +61,12 @@
 }
 
 @media (max-width: 813px) {
+    .contact_detail {
+        font-size: 0.89rem;
+    }
+    
     .div-google-map {
-        width: 500px;
+        width: 90vw;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -75,29 +79,10 @@
 
     }
     .div-detail-contact {
+        padding-left: 5vw;
         width: 100%;
         color: white;
         font-size: 1.2rem;
     }
 }
 
-@media (max-width: 640px) {
-    .div-google-map {
-        width: 100%;
-        height: auto;
-        margin-bottom: 3vw;
-
-    }
-
-    .div-detail-contact {
-        width: 100%;
-        font-size: 4vw;
-
-    }
-
-    .div-in-google-map {
-        height: 30vh;
-
-    }
-
-}
