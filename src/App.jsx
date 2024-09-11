@@ -1,8 +1,8 @@
 import '../src/assets/style/main.css';
 import Navbar from './components/Navbar';
-import HomePage from './pages/HomePage';
-import SkillPage from './pages/SkillPage';
-import PortfolioPage from './pages/PortfolioPage';
+import Home from './pages/Home';
+import Skill from './pages/Skill';
+import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Education from './pages/Education';
 import Experience from './pages/Experience';
@@ -12,10 +12,10 @@ const App = () => (
   <>
     <div className='layout'>
       <Navbar />
-      <HomePage />
-      <PortfolioPage />
+      <Home />
+      <Portfolio />
       <Education />
-      <SkillPage />
+      <Skill />
       <Experience />
       <Contact />
     </div>

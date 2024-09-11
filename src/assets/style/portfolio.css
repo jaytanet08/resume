@@ -1,11 +1,26 @@
 .container {
     width: 100%;
     max-width: 1200px;
-    margin: 100px auto;
+
+}
+
+.ant-card-meta-description{
+    height: 180px;
+}
+
+
+.portfolio-icon-skill {
+    display: flex;
+    justify-content: end;
+    margin-top: 1rem;
+}
+
+.div-icon-skill {
+    padding: 0.1rem;
 }
 
 .div-main-portfolio {
-    width: 95%;
+    width: 100%;
 }
 
 .div-label {
@@ -20,25 +35,44 @@
     font-weight: bold;
 }
 
+.div-card {
+    padding: 0.5rem;
+
+}
+
 .div-port {
     padding-top: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
 }
 
 .card {
     width: 365px;
+    height: 100%;
 }
 
 
 @media (max-width: 1175px) {
+    .div-card {
+        padding: 0.5rem;
+    
+    }
+    .portfolio-icon-skill {
+        padding-top: 2rem;
+    }
+    .ant-card-meta-description{
+        height: auto;
+    }
+    
+    
     .div-port {
         display: grid;
         justify-content: space-between;
     }
 
+
     .card {
         width: 100%;
-        margin-top:2rem;
+
     }
 }
