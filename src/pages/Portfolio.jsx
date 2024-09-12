@@ -7,6 +7,8 @@ import ModalPort from '../components/ModalPort';
 
 function Portfolio() {
     const [openModal, setOpenModal] = useState(false);
+    const [imageDetail, setImageDetail] = useState([]);
+    const [textDetail, setTextDetail] = useState([]);
     const { t } = useTranslation();
     const imageSkillPortfolio1 = ['f5.png', 'f4.png', 'b1.png', 'b2.png', 'db1.png', 'db4.jpg']
     const imageSkillPortfolio2 = ['b1.png', 'b2.png', 'db1.png', 'db4.jpg']
@@ -15,7 +17,7 @@ function Portfolio() {
     const imageSkillPortfolio5 = ['f5.png', 'f9.png', 'f4.png', 'b1.png', 'b2.png', 'db1.png', 'db6.png']
     return (
         <>
-            <ModalPort isModalOpen={openModal} handleCancel={() => { setOpenModal(false) }} />
+            <ModalPort isModalOpen={openModal} handleCancel={() => { setOpenModal(false) }} imageDetail={imageDetail} textDetail={textDetail} />
             <div className="container">
                 <div id="Portfolio" className="content-wrapper">
                     <div className='div-main-portfolio'>
@@ -27,7 +29,11 @@ function Portfolio() {
                                 <Card
                                     hoverable
                                     className='card'
-                                    onClick={() => { setOpenModal(true) }}
+                                    onClick={() => {
+                                        setOpenModal(true);
+                                        setImageDetail(["/assets/img/portfolio/a1.png", "/assets/img/portfolio/a2.png"]);
+                                        setTextDetail([t('portfolio_detail_1')])
+                                    }}
                                     cover={<img alt="example" src="/assets/img/portfolio/a1.png" />}
                                 >
                                     <Meta title={t('portfolio_title_1')}
@@ -52,6 +58,12 @@ function Portfolio() {
                             <div className='div-card'>
                                 <Card
                                     hoverable
+                                    onClick={() => {
+                                        setOpenModal(true);
+                                        setImageDetail(["/assets/img/portfolio/b1.png"]);
+                                        setTextDetail([t('portfolio_detail_2')])
+                                    }}
+
                                     className='card'
                                     cover={<img alt="example" src="/assets/img/portfolio/b1.png" />}
                                 >
@@ -77,6 +89,11 @@ function Portfolio() {
                                 <Card
                                     hoverable
                                     className='card'
+                                    onClick={() => {
+                                        setOpenModal(true);
+                                        setImageDetail(["/assets/img/portfolio/a1.png", "/assets/img/portfolio/a2.png"]);
+                                        setTextDetail([t('portfolio_detail_1')])
+                                    }}
                                     cover={<img alt="example" src="/assets/img/portfolio/c1.png" />}
                                 >
                                     <Meta title={t('portfolio_title_3')}
@@ -102,9 +119,12 @@ function Portfolio() {
                         <div className='div-port' >
                             <div className='div-card'>
                                 <Card
-                                    hoverable
                                     className='card'
-                                    onClick={() => { console.log("12312") }}
+                                    onClick={() => {
+                                        setOpenModal(true);
+                                        setImageDetail(["/assets/img/portfolio/d1.png"]);
+                                        setTextDetail([t('portfolio_detail_4')])
+                                    }}
                                     cover={<img alt="example" src="/assets/img/portfolio/d1.png" />}
                                 >
                                     <Meta title={t('portfolio_title_4')}
@@ -129,6 +149,11 @@ function Portfolio() {
                                 <Card
                                     hoverable
                                     className='card'
+                                    onClick={() => {
+                                        setOpenModal(true);
+                                        setImageDetail(["/assets/img/portfolio/f3.png", "/assets/img/portfolio/f5.png", "/assets/img/portfolio/f2.png", "/assets/img/portfolio/f4.png"]);
+                                        setTextDetail([t('portfolio_detail_5')])
+                                    }}
                                     cover={<img alt="example" src="/assets/img/portfolio/f1.png" />}
                                 >
                                     <Meta title={t('portfolio_title_5')}

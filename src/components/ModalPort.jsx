@@ -2,7 +2,7 @@ import { Button, Modal } from 'antd'
 import React from 'react'
 import CarouselDetailPort from './CarouselDetailPort'
 
-function ModalPort({ isModalOpen, handleCancel }) {
+function ModalPort({ isModalOpen, handleCancel, imageDetail, textDetail }) {
 
     return (
         <Modal
@@ -15,7 +15,12 @@ function ModalPort({ isModalOpen, handleCancel }) {
                     Cancle
                 </Button>,
             ]}>
-            <CarouselDetailPort />
+            <div>
+                <CarouselDetailPort img={imageDetail} />
+            </div>
+            <div style={{ paddingTop: "1rem" }}>
+                <label style={{ fontSize: "1.1rem" }}>{textDetail}</label>
+            </div>
         </Modal>
     )
 }

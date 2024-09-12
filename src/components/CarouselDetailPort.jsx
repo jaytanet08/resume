@@ -12,23 +12,28 @@ import '../assets/style/carousel.css'
 // import required modules
 import { Pagination, Navigation } from 'swiper/modules';
 
-export default function CarouselDetailPort() {
-  const pagination = {
-    clickable: true,
-    renderBullet: function (index, className) {
-      return '<span class="' + className + '">' + (index + 1) + '</span>';
-    },
-  };
+export default function CarouselDetailPort({ img }) {
 
   return (
     <>
+
       <Swiper
-        pagination={pagination}
-        modules={[Pagination]}
+        pagination={{
+          type: 'fraction',
+        }}
+        navigation={true}
+        modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-           <SwiperSlide><img alt="example" src="/assets/img/portfolio/b1.png" /></SwiperSlide>
-           <SwiperSlide><img alt="example" src="/assets/img/portfolio/a1.png" /></SwiperSlide>
+        {img.map((value) => {
+          return (
+            <>
+              <SwiperSlide><img alt="example" src={value} /></SwiperSlide>
+
+            </>
+          )
+        })}
+
       </Swiper>
     </>
   );

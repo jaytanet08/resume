@@ -4,7 +4,13 @@ import { Timeline } from 'antd';
 import { useTranslation } from 'react-i18next';
 
 function Experience() {
-    const experienceDetails = [
+    const experienceDetails1 = [
+        'experience_detail_1_1', 'experience_detail_1_2', 'experience_detail_1_3', 
+        'experience_detail_1_4', 'experience_detail_1_5', 'experience_detail_1_6', 
+        'experience_detail_1_7', 'experience_detail_1_8', 'experience_detail_1_9',
+        'experience_detail_1_10'
+    ];
+    const experienceDetails2 = [
         'experience_detail_2_1', 'experience_detail_2_2', 'experience_detail_2_3', 
         'experience_detail_2_4', 'experience_detail_2_5', 'experience_detail_2_6', 
         'experience_detail_2_7', 'experience_detail_2_8', 'experience_detail_2_9',
@@ -30,8 +36,10 @@ function Experience() {
                                 children: (
                                     <>
                                         <div className='labal-position'>{t('experience_title_1')}</div>
-                                        <label className='labal-experience-detail'>{t('experience_detail_1_1')}</label>
-                                        <div><label className='labal-experience-detail'>{t('experience_detail_1_2')}</label></div>
+                                        {experienceDetails1.map((detailKey, index) => (
+                                            <div key={index} className='labal-experience-detail'>{t(detailKey)}</div>
+                                        ))}
+                                       
                                     </>
                                 ),
                             },
@@ -39,7 +47,7 @@ function Experience() {
                                 children: (
                                     <>
                                         <div className='labal-position'>{t('experience_title_2')}</div>
-                                        {experienceDetails.map((detailKey, index) => (
+                                        {experienceDetails2.map((detailKey, index) => (
                                             <div key={index} className='labal-experience-detail'>{t(detailKey)}</div>
                                         ))}
 

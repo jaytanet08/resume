@@ -21,7 +21,7 @@ const Home = () => {
                 setIndex(0);
                 time = 5000;
             }
-        }, time); 
+        }, time);
 
     }, [index]);
 
@@ -42,14 +42,17 @@ const Home = () => {
 
                     <div className='div-home-left'>
                         <div className='div-in-left'>
-                        <div >
+                            <div >
                                 <label className='label-hello-world'>{textEffect}</label>
                             </div>
                             <div className='div-name-person'>{t('about_name')}</div>
                             <div className='div-detail'>
-                                {t('about_detail')}
+                                <p>{t('about_detail1')}</p>
                             </div>
-                           
+                            <div className='div-detail'>
+                                <p>{t('about_detail2')}</p>
+                            </div>
+
                             <div className='div-btn-cv'>
                                 <a href="/assets/file/cv_tanet.pdf" download >
                                     <Button className='btn-cv' type="primary" >{t('about_btn_download')} </Button>
