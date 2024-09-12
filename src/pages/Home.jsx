@@ -59,7 +59,7 @@ const Home = () => {
                                 </a>
                             </div>
                             <div className='div-icon'>
-                                <a href="https://github.com/jaytanet08" className="icon-github" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/jaytanetdev" className="icon-github" target="_blank" rel="noopener noreferrer">
                                     <FontAwesomeIcon icon={faGithub} size="2x" />
                                 </a>
                                 <a href="https://www.linkedin.com/in/tanet-limsumagkolkun-3039a51b7" className="icon-linkin" target="_blank" rel="noopener noreferrer">
