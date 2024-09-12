@@ -30,7 +30,6 @@ export default function CarouselDetailPort({ img }) {
             <SwiperSlide key={index}>
               <img
                 className="carousel-image"
-  
                 src={src}
               />
             </SwiperSlide>

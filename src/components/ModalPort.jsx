@@ -19,7 +19,7 @@ function ModalPort({ isModalOpen, handleCancel, imageDetail, textDetail }) {
                 <CarouselDetailPort img={imageDetail} />
             </div>
             <div style={{ paddingTop: "1rem" }}>
-                <label style={{ fontSize: "1.1rem" }}>{textDetail}</label>
+                <label >{textDetail}</label>
             </div>
         </Modal>
     )
