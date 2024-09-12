@@ -25,12 +25,15 @@ export default function CarouselDetailPort({ img }) {
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        {img.map((value) => {
+        {img.map((src, index) => {
           return (
-            <>
-              <SwiperSlide><img alt="example" src={value} /></SwiperSlide>
-
-            </>
+            <SwiperSlide key={index}>
+              <img
+                className="carousel-image"
+  
+                src={src}
+              />
+            </SwiperSlide>
           )
         })}
 

@@ -91,7 +91,14 @@ function Portfolio() {
                                     className='card'
                                     onClick={() => {
                                         setOpenModal(true);
-                                        setImageDetail(["/assets/img/portfolio/a1.png", "/assets/img/portfolio/a2.png"]);
+                                        setImageDetail([
+                                            "/assets/img/portfolio/c0.png",
+                                            "/assets/img/portfolio/c1.png",
+                                            "/assets/img/portfolio/c2.png",
+                                            "/assets/img/portfolio/c3.png",
+                                            "/assets/img/portfolio/c4.png",
+                                            "/assets/img/portfolio/c5.png"
+                                        ]);
                                         setTextDetail([t('portfolio_detail_1')])
                                     }}
                                     cover={<img alt="example" src="/assets/img/portfolio/c1.png" />}
