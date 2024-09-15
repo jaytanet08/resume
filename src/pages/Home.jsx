@@ -54,7 +54,7 @@ const Home = () => {
                             </div>
 
                             <div className='div-btn-cv'>
-                                <a href="/assets/file/cv_tanet.pdf" download >
+                                <a href="/assets/file/Reume_Tanet.pdf" download >
                                     <Button className='btn-cv' type="primary" >{t('about_btn_download')} </Button>
                                 </a>
                             </div>
