@@ -94,10 +94,12 @@ function Portfolio() {
                                         setImageDetail([
                                             "/assets/img/portfolio/c0.png",
                                             "/assets/img/portfolio/c1.png",
+                                            "/assets/img/portfolio/c6.png",
                                             "/assets/img/portfolio/c2.png",
                                             "/assets/img/portfolio/c3.png",
                                             "/assets/img/portfolio/c4.png",
-                                            "/assets/img/portfolio/c5.png"
+                                            "/assets/img/portfolio/c5.png",
+                                            "/assets/img/portfolio/c7.png",
                                         ]);
                                         setTextDetail([t('portfolio_detail_1')])
                                     }}
