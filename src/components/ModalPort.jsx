@@ -12,7 +12,7 @@ function ModalPort({ isModalOpen, handleCancel, imageDetail, textDetail }) {
             onCancel={handleCancel}
             footer={[
                 <Button key="Cancle" type="primary" onClick={handleCancel}>
-                    Cancle
+                    Cancel
                 </Button>,
             ]}>
             <div>
