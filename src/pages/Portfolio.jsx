@@ -15,6 +15,7 @@ function Portfolio() {
     const imageSkillPortfolio3 = ['f5.png', 'f4.png', 'b1.png', 'b2.png', 'db5.png', 'db4.jpg']
     const imageSkillPortfolio4 = ['f7.png', 'f8.png', 'f4.png', 'db4.jpg']
     const imageSkillPortfolio5 = ['f5.png', 'f9.png', 'f4.png', 'b1.png', 'b2.png', 'db1.png', 'db6.png']
+    const imageSkillPortfolio6 = ['f7.png', 'f4.png','db3.png','nest-js.png']
     return (
         <>
             <ModalPort isModalOpen={openModal} handleCancel={() => { setOpenModal(false) }} imageDetail={imageDetail} textDetail={textDetail} />
@@ -170,6 +171,35 @@ function Portfolio() {
                                     />
                                     <div className='portfolio-icon-skill'>
                                         {imageSkillPortfolio5.map((value, index) => {
+                                            return (
+                                                <div className='div-icon-skill' key={index}>
+                                                    <img
+                                                        style={{ width: 30 }}
+                                                        src={'/assets/img/' + value}
+                                                    />
+                                                </div>
+                                            )
+                                        })}
+
+                                    </div>
+                                </Card>
+                            </div>
+                            <div className='div-card'>
+                                <Card
+                                    hoverable
+                                    className='card'
+                                    onClick={() => {
+                                        setOpenModal(true);
+                                        setImageDetail(["/assets/img/portfolio/hitachi-home-page.png"]);
+                                        setTextDetail([t('portfolio_detail_6')])
+                                    }}
+                                    cover={<img alt="example" src="/assets/img/portfolio/g1.jpeg" />}
+                                >
+                                    <Meta title={t('portfolio_title_6')}
+                                        description={t('portfolio_detail_6')}
+                                    />
+                                    <div className='portfolio-icon-skill'>
+                                        {imageSkillPortfolio6.map((value, index) => {
                                             return (
                                                 <div className='div-icon-skill' key={index}>
                                                     <img

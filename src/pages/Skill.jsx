@@ -8,7 +8,7 @@ const Skill = () => {
     const sections = [
         {
             title: t("skill_title_1"),
-            images: ['/assets/img/f1.png', '/assets/img/f2.png', '/assets/img/f8.png', '/assets/img/f3.png', '/assets/img/f5.png', '/assets/img/f6.png', '/assets/img/f4.png'],
+            images: ['/assets/img/f1.png', '/assets/img/f2.png', '/assets/img/f8.png', '/assets/img/images.jpeg','/assets/img/f3.png','/assets/img/ts.png', '/assets/img/f5.png' , '/assets/img/f4.png'],
             effect: 'zoomIn',
         },
         {
@@ -21,16 +21,7 @@ const Skill = () => {
             images: ['/assets/img/db1.png', '/assets/img/db2.png', '/assets/img/db3.png','/assets/img/db5.png', '/assets/img/db4.jpg',  '/assets/img/c.png'],
             effect: 'slideUp',
         },
-        // {
-        //     title: 'Tool',
-        //     images: ['/assets/img/t1.png', '/assets/img/t2.png'],
-        //     effect: 'rotate',
-        // },
-        // {
-        //     title: 'Cloud',
-        //     images: ['/assets/img/c.png'],
-        //     effect: 'slideUp',
-        // },
+   
     ];
 
     return (

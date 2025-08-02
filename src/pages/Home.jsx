@@ -10,20 +10,28 @@ const Home = () => {
     const [textEffect, setTextEffect] = useState("")
     const [index, setIndex] = useState(0);
     const { t } = useTranslation();
-    useEffect(() => {
-        let time = 300;
-        setTimeout(() => {
-            if (index < textHelloWorld.length) {
-                setTextEffect(textHelloWorld.substr(0, index + 1));
-                setIndex(index + 1);
-            } else {
-                setTextEffect("Full Stack Developer");
-                setIndex(0);
-                time = 5000;
-            }
-        }, time);
+  useEffect(() => {
+    let interval;
+    let resetTimeout;
 
-    }, [index]);
+    if (index < textHelloWorld.length) {
+      interval = setInterval(() => {
+        setTextEffect((prev) => prev + textHelloWorld.charAt(index));
+        setIndex((prev) => prev + 1);
+      }, 300);
+    } else {
+      setTextEffect("Full Stack Developer");
+      resetTimeout = setTimeout(() => {
+        setTextEffect("");
+        setIndex(0);
+      }, 300);
+    }
+
+    return () => {
+      clearInterval(interval);
+      clearTimeout(resetTimeout);
+    };
+  }, [index]);
 
 
     const springProps = useSpring({
@@ -54,7 +62,7 @@ const Home = () => {
                             </div>
 
                             <div className='div-btn-cv'>
-                                <a href="/assets/file/Reume_Tanet.pdf" download >
+                                <a href="/assets/file/ResumeV2.pdf" download >
                                     <Button className='btn-cv' type="primary" >{t('about_btn_download')} </Button>
                                 </a>
                             </div>

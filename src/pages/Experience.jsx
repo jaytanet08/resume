@@ -4,6 +4,9 @@ import { Timeline } from 'antd';
 import { useTranslation } from 'react-i18next';
 
 function Experience() {
+    const experienceDetails3 = [
+        'experience_detail_3'
+    ];
     const experienceDetails1 = [
         'experience_detail_1_1', 'experience_detail_1_2', 'experience_detail_1_3', 
         'experience_detail_1_4', 'experience_detail_1_5', 'experience_detail_1_6', 
@@ -32,6 +35,17 @@ function Experience() {
                     </div>
                     <Timeline
                         items={[
+                            {
+                                children: (
+                                    <>
+                                        <div className='labal-position'>{t('experience_title_3')}</div>
+                                        {experienceDetails3.map((detailKey, index) => (
+                                            <div key={index} className='labal-experience-detail' style={{}}>{t(detailKey)}</div>
+                                        ))}
+                                       
+                                    </>
+                                ),
+                            },
                             {
                                 children: (
                                     <>
