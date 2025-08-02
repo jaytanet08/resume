@@ -31,6 +31,7 @@
 .labal-experience-detail {
     font-size: 1rem;
     margin-left: 1rem;
+  white-space: pre-wrap;
 }
 
 .ant-timeline-item-tail {
