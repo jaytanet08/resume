@@ -62,7 +62,7 @@ const Home = () => {
                             </div>
 
                             <div className='div-btn-cv'>
-                                <a href="/assets/file/ResumeV2.pdf" download >
+                                <a href="/assets/file/Resume_Tanet_limsumangkolkul.pdf" download >
                                     <Button className='btn-cv' type="primary" >{t('about_btn_download')} </Button>
                                 </a>
                             </div>
