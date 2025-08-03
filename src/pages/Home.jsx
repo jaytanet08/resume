@@ -24,7 +24,7 @@ const Home = () => {
       resetTimeout = setTimeout(() => {
         setTextEffect("");
         setIndex(0);
-      }, 300);
+      }, 0);
     }
 
     return () => {
